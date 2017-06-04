@@ -1,0 +1,29 @@
+.head{
+	background-color: auto;
+	padding-left: 500px;
+	text-shadow: initial;
+	margin: auto;
+}
+
+body{
+	background-image: url(https://cdn.pixabay.com/photo/2016/12/15/20/21/background-1909992_960_720.jpg);
+	background-size: 100%;
+}
+.abt{
+	border: 1px solid black;
+	padding: 10px;
+	width:200px;
+	height:200px;
+	text-align: justify;
+}
+#para{
+	color: white;
+	padding-left: 20%;
+	padding-right: 20%;
+
+	text-align: justify;
+
+}
+#about{
+	color:white;
+}

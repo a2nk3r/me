@@ -1,0 +1,15 @@
+
+h1.head{
+	color:green;
+	padding-left: 20%;	
+}
+#c1,#c2,#c3{
+	border-width: 10px;max-width: 100px;height: 100px;
+
+}
+#roll{
+	cursor: pointer;
+}
+#slots{
+	padding-left: 30%;
+}
