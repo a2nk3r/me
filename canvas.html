@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Canvas</title>
+	<script type="text/javascript" src="canvas.js"></script>
+	<link rel="stylesheet" type="text/css" href="canvas.css">
+</head>
+<body onload="startIt()">
+	<!--<div id="container">
+		<a onclick="moveup()"><img src="https://unitronicsplc.com/wp-content/uploads/intense-cache/icons/plugin/font-awesome/angle-up.svg" width="10%" height="auto"></a><br>
+		<a onclick="moveleft()"><img src="https://unitronicsplc.com/wp-content/uploads/intense-cache/icons/plugin/font-awesome/angle-left.svg" width="10%" height="auto"></a>
+
+		<a onclick="moveright()"><img src="https://unitronicsplc.com/wp-content/uploads/intense-cache/icons/plugin/font-awesome/angle-right.svg" width="10%" height="auto"></a><br>
+		<a onclick="movedown()"><img src="https://unitronicsplc.com/wp-content/uploads/intense-cache/icons/plugin/font-awesome/angle-down.svg" width="10%" height="auto"></a>
+	</div>-->
+	<div id="container">
+		<button onmousedown="moveup()" onmouseup="movestop()">UP</button><br>
+		<button onmousedown="moveleft()" onmouseup="movestop()">LEFT</button>
+		<button onmousedown="moveright()" onmouseup="movestop()">RIGHT</button><br>
+		<button onmousedown="movedown()" onmouseup="movestop()">DOWN</button>
+	</div>
+</body>
+</html>
