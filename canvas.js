@@ -46,12 +46,16 @@ function component(width,height,color,x,y){
 function updateArea(){
 		myArea.clear();
 	myGamePiece.newPos();
-	myGamePiece.speedX = 0;
-	myGamePiece.speedY = 0;
-	if(myArea.key && myArea.key == 37 || myArea.key == 65) myGamePiece.speedX = -1;
-	if(myArea.key && myArea.key == 38 || myArea.key == 87) myGamePiece.speedY = -1;
-	if(myArea.key && myArea.key == 39 || myArea.key == 68) myGamePiece.speedX = 1;
-	if(myArea.key && myArea.key == 40 || myArea.key == 83) myGamePiece.speedY = 1;
+	//myGamePiece.speedX = 0;
+	//myGamePiece.speedY = 0;
+	if(myArea.key && myArea.key == 37 || myArea.key == 65)
+		 myGamePiece.speedX = -1;
+	if(myArea.key && myArea.key == 38 || myArea.key == 87)
+		 myGamePiece.speedY = -1;
+	if(myArea.key && myArea.key == 39 || myArea.key == 68)
+		 myGamePiece.speedX = 1;
+	if(myArea.key && myArea.key == 40 || myArea.key == 83)
+		 myGamePiece.speedY = 1;
 	myGamePiece.update();
 }
 
